@@ -1,10 +1,11 @@
 /*  your css code here. If applicable */
 
-body{
+.cards-wrapper{
 	display:grid;
 	grid-template-rows:1fr ;
 	grid-template-columns:repeat(3,1fr) ;
 	background-color:#fafafa;
+	font-size:24px;
 }
 .card{
 	display:flex;
