@@ -1,17 +1,18 @@
 /*  your css code here. If applicable */
 
-.cards-wrapper{
+body{
 	display:grid;
-	border:10px solid #ccc;
 	grid-template-rows:1fr ;
 	grid-template-columns:repeat(3,1fr) ;
 	background-color:#fafafa;
 }
 .card{
 	display:flex;
+	
 	flex-direction:column;
 	justify-content:center;
 	flex-wrap:wrap;
+	border:10px solid #ccc;
 }
 
 h1{
